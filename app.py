@@ -8,3 +8,5 @@ figure = px.pie(données, values='qte', names='region', title='quantité vendue 
 figure.write_html('ventes-par-region.html')
 
 print('ventes-par-région.html généré avec succès !')
+
+
